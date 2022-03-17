@@ -1,0 +1,53 @@
+mapping = "";
+mode = "notepad-like";
+bind_by_physical_key = false;
+user_name = "not-set";
+lalt_lctrl_is_altgr = false;
+enable_undo_fade_out = true;
+treat_as_code = ".cpp.c.hpp.h";
+enable_virtual_whitespace = false;
+enable_code_wrapping = false;
+automatically_load_project = false;
+indent_with_tabs = false;
+indent_width = 4;
+default_tab_width = 4;
+
+// UI
+use_file_bars = true;
+hide_file_bar_in_ui = true;
+use_error_highlight = true;
+use_jump_highlight = true;
+use_scope_highlight = true;
+use_paren_helper = true;
+use_comment_keywords = true;
+lister_whole_word_backspace_when_modified = true;
+show_line_number_margins = false;
+enable_output_wrapping = false;
+
+// cursor_roundess is a value [0,50] setting the radius of
+// the cursor and mark's roundness as a percentage of their width
+// (At 50 the left and right corners will be so round they form a semi-circle,
+//  hence 50 is the max)
+cursor_roundness = 45;
+
+// mark_thickness is a pixel count value setting the
+// thickness of the mark wire box in original mode
+mark_thickness = 2;
+
+// lister_roundess is a value [0,50] setting the radius of
+// the lister items' roundness as a percentage of their height
+lister_roundness = 20;
+
+// Theme
+default_theme_name = "theme-fluery";
+
+// Font
+default_font_name = "liberation-mono.ttf";
+default_font_size = 16;
+default_font_hinting = false;
+
+// aa modes:
+//  8bit - mono-chrome 0-255 opacity channel per pixel
+//  1bit - mono-chrome 0/1 opacity channel per pixel
+default_font_aa_mode = "8bit";
+
